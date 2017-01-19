@@ -1,0 +1,2 @@
+vhdtdtfi -prj NEX -o /home/m1/taibi/Bureau/Control/TP10/NEX/rgb2hexa.vhi -lib work /home/m1/taibi/Bureau/Control/TP10/NEX//rgb2hexa.vhd -module rgb2hexa -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -prj NEX -o /home/m1/taibi/Bureau/Control/TP10/NEX/rgb2hexa.vhi -lib work /home/m1/taibi/Bureau/Control/TP10/NEX//rgb2hexa.vhd -module rgb2hexa -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

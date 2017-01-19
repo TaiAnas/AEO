@@ -1,0 +1,7 @@
+vhdtdtfi -prj NEX -o "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.vhi" -lib work "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX//fibogen.vhd" -module fibogen -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+xst -intstyle ise -ifn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.xst" -ofn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.syr" 
+xst -intstyle ise -ifn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.xst" -ofn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.syr" 
+xst -intstyle ise -ifn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.xst" -ofn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.syr" 
+xst -intstyle ise -ifn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.xst" -ofn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.syr" 
+xst -intstyle ise -ifn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.xst" -ofn "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.syr" 
+vhdtdtfi -prj NEX -o "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.vhi" -lib work "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX//fibogen.vhd" -module fibogen -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

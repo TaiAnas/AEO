@@ -1,0 +1,29 @@
+Command line:
+   IP_hexa2rgb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  49663
+
+Fri Dec 16 10:16:54 2016
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 157.839 Meg
+
+ Total Signals          : 12
+ Total Nets             : 155
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 6
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 527
+Total Line Count : 6
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 232.288 Meg
+
+Fri Dec 16 10:32:01 2016
+

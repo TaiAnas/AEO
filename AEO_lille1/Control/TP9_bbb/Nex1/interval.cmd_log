@@ -1,0 +1,1 @@
+vhdtdtfi -prj Nex1 -o /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1/interval.vhi -lib work /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1//interval.vhd -module interval -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

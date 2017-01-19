@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/m1/taibi/Bureau/Control/TP9_bbb/Nex1/Nexys3v6.ncd
+OUTFILE=/home/m1/taibi/Bureau/Control/TP9_bbb/Nex1/Nexys3v6.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/m1/taibi/Bureau/Control/TP9_bbb/Nex1
+LICENSE=WebPack
+USER_INFO=0_0_579

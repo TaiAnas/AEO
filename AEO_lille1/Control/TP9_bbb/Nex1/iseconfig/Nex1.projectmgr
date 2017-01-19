@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Nex1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/D7seg_display - afficheur</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/UART_Wrapper - Wrapper_RAM - rom_io</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/HCU_Master - HCU - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPFunit - IP_Funit - myfunit</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_Rdm - IP_interval - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_Tic - IP_Tic - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_mul16 - square2 - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_regfile - IP_regfile - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPdataStack - IP_datastack - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPwaitBt - IP_waitbt - FSM</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_mem_Master - Inst_mem - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/One_salve - HSlave - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Stack_Master - Hstack</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/sreg - netring</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/sreg_master - netring_master</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/D7seg_display - afficheur</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/HCU_Master - HCU - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPFunit - IP_Funit - myfunit</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_Tic - IP_Tic - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_mul16 - square2 - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_regfile - IP_regfile - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_rgb2hexa - IP_rgb2hexa - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPdataStack - IP_datastack - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPwaitBt - IP_waitbt - FSM</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_mem_Master - Inst_mem - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/One_salve - HSlave - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Stack_Master - Hstack</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/sreg - netring</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/sreg_master - netring_master</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/HCU_Master - HCU - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IPFunit - IP_Funit - myfunit</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_Rdm - IP_interval - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_Tic - IP_Tic - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_regfile - IP_regfile - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IPdataStack - IP_datastack - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IPwaitBt - IP_waitbt - FSM</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_mem_Master - Inst_mem - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/One_salve - HSlave - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/sreg - netring</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/sreg_master - netring_master</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Inst_IP_hexa2rgb - IP_hexa2rgb - Behavioral (/home/m1/taibi/Bureau/Control/TP9_bbb/Nex1/ip_hexa2rgb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >27</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000241000000020000000000000000000000000000000064ffffffff000000810000000000000002000002410000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Inst_IP_hexa2rgb - IP_hexa2rgb - Behavioral (/home/m1/taibi/Bureau/Control/TP9_bbb/Nex1/ip_hexa2rgb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000212000000010000000100000000000000000000000064ffffffff000000810000000000000001000002120000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>IP_ram.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000390000000040101000100000000000000000000000064ffffffff000000810000000000000004000000aa00000001000000000000011b0000000100000000000000840000000100000000000001470000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/IP_Rdm - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|IP_Rdm.vhd</ClosedNode>
+         <ClosedNode>/IP_interval - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|IP_interval.vhd</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/D7seg_display - afficheur</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/UART_Wrapper - Wrapper_RAM - rom_io</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/HCU_Master - HCU - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPFunit - IP_Funit - myfunit</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_Rdm - IP_Rdm - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_Tic - IP_Tic - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_mul16 - square2 - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IP_regfile - IP_regfile - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPdataStack - IP_datastack - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_IPwaitBt - IP_waitbt - FSM</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Inst_mem_Master - Inst_mem - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/One_salve - HSlave - Behavioral</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/Stack_Master - Hstack</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/sreg - netring</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Nexys3v6.vhd/my_Master - HMaster - Behavioral/sreg_master - netring_master</ClosedNode>
+         <ClosedNode>/Nexys3v6 - Behavioral |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Nexys3v6.vhd</ClosedNode>
+         <ClosedNode>/masterbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|Master_tb.vhd/HoMade - HMaster - Behavioral</ClosedNode>
+         <ClosedNode>/masterbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|Master_tb.vhd/HoMade - HMaster - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/HCU_Master - HCU - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IPFunit - IP_Funit - myfunit</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_Rdm - IP_Rdm - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_Tic - IP_Tic - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_mul16 - square2 - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_regfile - IP_regfile - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IPdataStack - IP_datastack - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IPwaitBt - IP_waitbt - FSM</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_mem_Master - Inst_mem - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/One_salve - HSlave - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Stack_Master - Hstack</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/sreg - netring</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|adansar|Bureau|TPS_AOE|TP9_b|Nex1|testmaster.vhd/uut - HMaster - Behavioral/sreg_master - netring_master</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_Tic - IP_Tic - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_hexa2rgb - IP_hexa2rgb - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_mul16 - square2 - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IP_rgb2hexa - IP_rgb2hexa - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/Inst_IPdataStack - IP_datastack - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/One_salve - HSlave - Behavioral/Inst_IPFunit - IP_Funit - myfunit</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/One_salve - HSlave - Behavioral/Inst_IPRAM - IP_ram - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/One_salve - HSlave - Behavioral/Inst_IP_Tic - IP_Tic - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/One_salve - HSlave - Behavioral/Inst_IP_mul16 - IP_mul16 - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/One_salve - HSlave - Behavioral/Inst_IP_regfile - IP_regfile - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/One_salve - HSlave - Behavioral/Inst_IPdataStack - IP_datastack - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/sreg - netring</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|m1|taibi|Bureau|Control|TP9_bbb|Nex1|testmaster.vhd/uut - HMaster - Behavioral/sreg_master - netring_master</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Inst_IP_rgb2hexa - IP_rgb2hexa - Behavioral (/home/m1/taibi/Bureau/Control/TP9_bbb/Nex1/ip_rgb2hexa.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >112</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000021f000000020000000000000000000000000000000064ffffffff0000008100000000000000020000021f0000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Inst_IP_rgb2hexa - IP_rgb2hexa - Behavioral (/home/m1/taibi/Bureau/Control/TP9_bbb/Nex1/ip_rgb2hexa.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000212000000010000000100000000000000000000000064ffffffff000000810000000000000001000002120000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000212000000010000000100000000000000000000000064ffffffff000000810000000000000001000002120000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>

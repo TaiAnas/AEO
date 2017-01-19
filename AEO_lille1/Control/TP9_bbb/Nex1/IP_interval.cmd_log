@@ -1,0 +1,4 @@
+vhdtdtfi -prj Nex1 -o /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1/IP_interval.vhi -lib work /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1//IP_interval.vhd -module IP_interval -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -prj Nex1 -o /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1/IP_interval.vhi -lib work /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1//IP_interval.vhd -module IP_interval -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -prj Nex1 -o /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1/IP_interval.vhi -lib work /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1//IP_interval.vhd -module IP_interval -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+vhdtdtfi -prj Nex1 -o /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1/IP_interval.vhi -lib work /home/m1/adansar/Bureau/TPS_AOE/TP9_b/Nex1//IP_interval.vhd -module IP_interval -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

@@ -1,0 +1,5 @@
+vhdl work "x7seg.vhd"
+vhdl work "FSM.vhd"
+vhdl work "e190.vhd"
+vhdl work "clk_div.vhd"
+vhdl work "test_1.vhd"

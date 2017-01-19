@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/m1/taibi/Bureau/Control/TP10/NEX/IP_hexa2rgb.xst" -ofn "/home/m1/taibi/Bureau/Control/TP10/NEX/IP_hexa2rgb.syr" 
+xst -intstyle ise -ifn "/home/m1/taibi/Bureau/Control/TP10/NEX/IP_hexa2rgb.xst" -ofn "/home/m1/taibi/Bureau/Control/TP10/NEX/IP_hexa2rgb.syr" 

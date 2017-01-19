@@ -1,0 +1,1 @@
+vhdtdtfi -prj prepa_examen_1 -o C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/x7seg.vhi -module x7seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work x7seg.vhd 

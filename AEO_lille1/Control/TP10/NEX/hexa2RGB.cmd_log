@@ -1,0 +1,1 @@
+vhdtdtfi -prj NEX -o /home/m1/taibi/Bureau/Control/TP10/NEX/hexa2RGB.vhi -lib work /home/m1/taibi/Bureau/Control/TP10/NEX//hexa2RGB.vhd -module hexa2RGB -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

@@ -1,0 +1,606 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: test_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "test_1.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "test_1"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : test_1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\x7seg.vhd" into library work
+Parsing entity <x7seg>.
+Parsing architecture <Behavioral> of entity <x7seg>.
+Parsing VHDL file "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\FSM.vhd" into library work
+Parsing entity <FSM>.
+Parsing architecture <Behavioral> of entity <fsm>.
+Parsing VHDL file "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\e190.vhd" into library work
+Parsing entity <e190>.
+Parsing architecture <Behavioral> of entity <e190>.
+Parsing VHDL file "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\clk_div.vhd" into library work
+Parsing entity <clk_div>.
+Parsing architecture <Behavioral> of entity <clk_div>.
+Parsing VHDL file "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\test_1.vhd" into library work
+Parsing entity <test_1>.
+Parsing architecture <Behavioral> of entity <test_1>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <test_1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <clk_div> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <e190> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <FSM> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\FSM.vhd" Line 44: data should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\FSM.vhd" Line 47: data should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\FSM.vhd" Line 50: data should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\FSM.vhd" Line 53: data should be on the sensitivity list of the process
+
+Elaborating entity <x7seg> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <test_1>.
+    Related source file is "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\test_1.vhd".
+WARNING:Xst:647 - Input <sw> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\test_1.vhd" line 85: Output port <clk190> of the instance <Inst_e190> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <test_1> synthesized.
+
+Synthesizing Unit <clk_div>.
+    Related source file is "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\clk_div.vhd".
+    Found 16-bit register for signal <cpt_v>.
+    Found 28-bit register for signal <compt>.
+    Found 28-bit adder for signal <compt[27]_GND_7_o_add_0_OUT> created at line 1241.
+    Found 16-bit adder for signal <cpt_v[15]_GND_7_o_add_2_OUT> created at line 50.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  44 D-type flip-flop(s).
+Unit <clk_div> synthesized.
+
+Synthesizing Unit <e190>.
+    Related source file is "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\e190.vhd".
+    Found 1-bit register for signal <e190>.
+    Found 24-bit register for signal <q>.
+    Found 24-bit adder for signal <q[23]_GND_8_o_add_0_OUT> created at line 48.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  25 D-type flip-flop(s).
+Unit <e190> synthesized.
+
+Synthesizing Unit <FSM>.
+    Related source file is "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\FSM.vhd".
+    Found 4-bit register for signal <anodes>.
+    Found 4-bit register for signal <seven>.
+    Found 2-bit register for signal <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | st1                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit 4-to-1 multiplexer for signal <seven_i[3]_data[3]_MUX_64_o> created at line 42.
+    Found 1-bit 4-to-1 multiplexer for signal <seven_i[3]_data[2]_MUX_68_o> created at line 42.
+    Found 1-bit 4-to-1 multiplexer for signal <seven_i[3]_data[1]_MUX_72_o> created at line 42.
+    Found 1-bit 4-to-1 multiplexer for signal <seven_i[3]_data[0]_MUX_76_o> created at line 42.
+WARNING:Xst:737 - Found 1-bit latch for signal <anodes_i<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <anodes_i<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <anodes_i<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <anodes_i<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   4 Latch(s).
+	inferred   6 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <FSM> synthesized.
+
+Synthesizing Unit <x7seg>.
+    Related source file is "C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\x7seg.vhd".
+    Found 16x7-bit Read Only RAM for signal <seven>
+    Summary:
+	inferred   1 RAM(s).
+Unit <x7seg> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x7-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 28-bit adder                                          : 1
+# Registers                                            : 6
+ 1-bit register                                        : 1
+ 16-bit register                                       : 1
+ 24-bit register                                       : 1
+ 28-bit register                                       : 1
+ 4-bit register                                        : 2
+# Latches                                              : 4
+ 1-bit latch                                           : 4
+# Multiplexers                                         : 6
+ 1-bit 2-to-1 multiplexer                              : 2
+ 1-bit 4-to-1 multiplexer                              : 4
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <clk_div>.
+The following registers are absorbed into counter <compt>: 1 register on signal <compt>.
+The following registers are absorbed into counter <cpt_v>: 1 register on signal <cpt_v>.
+Unit <clk_div> synthesized (advanced).
+
+Synthesizing (advanced) Unit <e190>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <e190> synthesized (advanced).
+
+Synthesizing (advanced) Unit <x7seg>.
+INFO:Xst:3231 - The small RAM <Mram_seven> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sw>            |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <seven>         |          |
+    -----------------------------------------------------------------------
+Unit <x7seg> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x7-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 2
+ 24-bit adder                                          : 1
+ 28-bit adder                                          : 1
+# Counters                                             : 3
+ 16-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+ 28-bit up counter                                     : 1
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+# Multiplexers                                         : 6
+ 1-bit 2-to-1 multiplexer                              : 2
+ 1-bit 4-to-1 multiplexer                              : 4
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_FSM/FSM_0> on signal <state[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ st1   | 0001
+ st2   | 0010
+ st3   | 0100
+ st4   | 1000
+-------------------
+WARNING:Xst:2677 - Node <Inst_e190/q_19> of sequential type is unconnected in block <test_1>.
+WARNING:Xst:2677 - Node <Inst_e190/q_20> of sequential type is unconnected in block <test_1>.
+WARNING:Xst:2677 - Node <Inst_e190/q_21> of sequential type is unconnected in block <test_1>.
+WARNING:Xst:2677 - Node <Inst_e190/q_22> of sequential type is unconnected in block <test_1>.
+WARNING:Xst:2677 - Node <Inst_e190/q_23> of sequential type is unconnected in block <test_1>.
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    anodes_i_2 in unit <FSM>
+    anodes_i_3 in unit <FSM>
+    anodes_i_1 in unit <FSM>
+    anodes_i_0 in unit <FSM>
+
+
+Optimizing unit <test_1> ...
+
+Optimizing unit <FSM> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test_1, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 76
+ Flip-Flops                                            : 76
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : test_1.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 385
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 105
+#      LUT2                        : 30
+#      LUT3                        : 17
+#      LUT4                        : 17
+#      LUT5                        : 6
+#      LUT6                        : 6
+#      MUXCY                       : 105
+#      VCC                         : 1
+#      XORCY                       : 92
+# FlipFlops/Latches                : 80
+#      FD                          : 60
+#      FDE                         : 16
+#      LD                          : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              76  out of  18224     0%  
+ Number of Slice LUTs:                  186  out of   9112     2%  
+    Number used as Logic:               186  out of   9112     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    189
+   Number with an unused Flip Flop:     113  out of    189    59%  
+   Number with an unused LUT:             3  out of    189     1%  
+   Number of fully used LUT-FF pairs:    73  out of    189    38%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          20
+ Number of bonded IOBs:                  12  out of    232     5%  
+    IOB Flip Flops/Latches:               4
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------+------------------------------+-------+
+Clock Signal                                  | Clock buffer(FF name)        | Load  |
+----------------------------------------------+------------------------------+-------+
+clk                                           | BUFGP                        | 64    |
+Inst_e190/e190                                | NONE(Inst_FSM/state_FSM_FFd4)| 12    |
+Inst_FSM/anodes_i_0_G(Inst_FSM/anodes_i_2_G:O)| NONE(*)(Inst_FSM/anodes_i_2) | 4     |
+----------------------------------------------+------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.474ns (Maximum Frequency: 182.693MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.821ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.474ns (frequency: 182.693MHz)
+  Total number of paths / destination ports: 18632 / 80
+-------------------------------------------------------------------------
+Delay:               5.474ns (Levels of Logic = 31)
+  Source:            Inst_clk_div/compt_0 (FF)
+  Destination:       Inst_clk_div/compt_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_clk_div/compt_0 to Inst_clk_div/compt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  Inst_clk_div/compt_0 (Inst_clk_div/compt_0)
+     INV:I->O              1   0.206   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_lut<0>_INV_0 (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<0> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<1> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<2> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<3> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<4> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<5> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<6> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<7> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<8> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<9> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<10> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<11> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<12> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<13> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<14> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<15> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<16> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<17> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<17>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<18> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<18>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<19> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<19>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<20> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<20>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<21> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<21>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<22> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<22>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<23> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<23>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<24> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<24>)
+     MUXCY:CI->O           1   0.019   0.000  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<25> (Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_cy<25>)
+     XORCY:CI->O           2   0.180   0.721  Inst_clk_div/Madd_compt[27]_GND_7_o_add_0_OUT_xor<26> (Inst_clk_div/compt[27]_GND_7_o_add_0_OUT<26>)
+     LUT3:I1->O            2   0.203   0.961  Inst_clk_div/compt[27]_GND_7_o_equal_2_o<27>5 (Inst_clk_div/compt[27]_GND_7_o_equal_2_o<27>4)
+     LUT6:I1->O           15   0.203   0.982  Inst_clk_div/compt[27]_GND_7_o_equal_2_o<27>7 (Inst_clk_div/compt[27]_GND_7_o_equal_2_o)
+     LUT2:I1->O            1   0.205   0.000  Inst_clk_div/compt_0_rstpot (Inst_clk_div/compt_0_rstpot)
+     FD:D                      0.102          Inst_clk_div/compt_0
+    ----------------------------------------
+    Total                      5.474ns (2.193ns logic, 3.281ns route)
+                                       (40.1% logic, 59.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_e190/e190'
+  Clock period: 2.869ns (frequency: 348.578MHz)
+  Total number of paths / destination ports: 20 / 8
+-------------------------------------------------------------------------
+Delay:               2.869ns (Levels of Logic = 2)
+  Source:            Inst_FSM/state_FSM_FFd2 (FF)
+  Destination:       Inst_FSM/seven_3 (FF)
+  Source Clock:      Inst_e190/e190 rising
+  Destination Clock: Inst_e190/e190 rising
+
+  Data Path: Inst_FSM/state_FSM_FFd2 to Inst_FSM/seven_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.447   1.104  Inst_FSM/state_FSM_FFd2 (Inst_FSM/state_FSM_FFd2)
+     LUT4:I0->O            1   0.203   0.808  Inst_FSM/state_seven_i[3]_data[0]_MUX_76_o_SW0 (N01)
+     LUT5:I2->O            1   0.205   0.000  Inst_FSM/state_seven_i[3]_data[0]_MUX_76_o (Inst_FSM/seven_i[3]_data[0]_MUX_76_o)
+     FD:D                      0.102          Inst_FSM/seven_0
+    ----------------------------------------
+    Total                      2.869ns (0.957ns logic, 1.912ns route)
+                                       (33.4% logic, 66.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_e190/e190'
+  Total number of paths / destination ports: 32 / 11
+-------------------------------------------------------------------------
+Offset:              4.821ns (Levels of Logic = 2)
+  Source:            Inst_FSM/seven_1 (FF)
+  Destination:       seven_seg<6> (PAD)
+  Source Clock:      Inst_e190/e190 rising
+
+  Data Path: Inst_FSM/seven_1 to seven_seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.447   1.021  Inst_FSM/seven_1 (Inst_FSM/seven_1)
+     LUT4:I0->O            1   0.203   0.579  Inst_x7seg/Mram_seven61 (seven_seg_6_OBUF)
+     OBUF:I->O                 2.571          seven_seg_6_OBUF (seven_seg<6>)
+    ----------------------------------------
+    Total                      4.821ns (3.221ns logic, 1.600ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Inst_FSM/anodes_i_0_G
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Inst_e190/e190 |         |         |    1.791|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Inst_e190/e190
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+Inst_FSM/anodes_i_0_G|         |    1.179|         |         |
+Inst_e190/e190       |    2.869|         |         |         |
+clk                  |    2.646|         |         |         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.474|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.86 secs
+ 
+--> 
+
+Total memory usage is 294784 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

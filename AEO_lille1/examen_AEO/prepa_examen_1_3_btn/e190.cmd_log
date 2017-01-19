@@ -1,0 +1,1 @@
+vhdtdtfi -prj prepa_examen_1 -o C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/e190.vhi -module e190 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work e190.vhd 

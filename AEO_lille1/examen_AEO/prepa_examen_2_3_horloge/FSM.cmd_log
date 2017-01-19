@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 FSM.ngc FSM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -mt off FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 
+bitgen -intstyle ise -f FSM.ut FSM.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 FSM.ngc FSM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -mt off FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 
+bitgen -intstyle ise -f FSM.ut FSM.ncd 
+bitgen -intstyle ise -f FSM.ut FSM.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 FSM.ngc FSM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -mt off FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 
+bitgen -intstyle ise -f FSM.ut FSM.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 FSM.ngc FSM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -mt off FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 
+bitgen -intstyle ise -f FSM.ut FSM.ncd 
+vhdtdtfi -prj prepa_examen_1 -o C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.vhi -module FSM -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work FSM.vhd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 FSM.ngc FSM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o FSM_map.ncd FSM.ngd FSM.pcf 
+par -w -intstyle ise -ol high -mt off FSM_map.ncd FSM.ncd FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FSM.twx FSM.ncd -o FSM.twr FSM.pcf 
+bitgen -intstyle ise -f FSM.ut FSM.ncd 

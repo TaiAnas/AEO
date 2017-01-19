@@ -1,0 +1,3 @@
+vhdl work "FSM.vhd"
+vhdl work "clk_div.vhd"
+vhdl work "test_1.vhd"

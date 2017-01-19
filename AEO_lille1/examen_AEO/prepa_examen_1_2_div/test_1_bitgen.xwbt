@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\test_1.ncd
+OUTFILE=C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div\test_1.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\abk\Desktop\m1\AEO\prepa_examen_1_2_div
+LICENSE=WebPack
+USER_INFO=211245395_0_0_250

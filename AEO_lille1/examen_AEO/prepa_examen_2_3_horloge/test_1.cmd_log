@@ -1,0 +1,382 @@
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_2_div/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 
+xst -intstyle ise -ifn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.xst" -ofn "C:/Users/abk/Desktop/m1/AEO/prepa_examen_1_3_btn/test_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc def.ucf -p xc6slx16-csg324-3 test_1.ngc test_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_1_map.ncd test_1.ngd test_1.pcf 
+par -w -intstyle ise -ol high -mt off test_1_map.ncd test_1.ncd test_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_1.twx test_1.ncd -o test_1.twr test_1.pcf -ucf def.ucf 
+bitgen -intstyle ise -f test_1.ut test_1.ncd 

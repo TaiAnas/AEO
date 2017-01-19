@@ -1,0 +1,6 @@
+[Inputs]
+clk
+btn
+[Outputs]
+=cpt[15:0]=
+[BiDir]

@@ -1,0 +1,2 @@
+vhdl work "hexa2RGB.vhd"
+vhdl work "ip_hexa2rgb.vhd"

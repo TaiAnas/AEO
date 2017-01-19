@@ -1,0 +1,414 @@
+Release 12.4 - xst M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Reading design: fibogen.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "fibogen.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "fibogen"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : fibogen
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.vhd" into library work
+Parsing entity <fibogen>.
+Parsing architecture <Behavioral> of entity <fibogen>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <fibogen> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fibogen>.
+    Related source file is "/home/m1/kaddou/Bureau/Master Informtique/AOE/TPS_AOE/TP10/NEX/fibogen.vhd".
+    Set property "clock_signal = yes" for signal <clk>.
+    Found 32-bit register for signal <fib>.
+    Found 32-bit register for signal <fiboout>.
+    Found 32-bit adder for signal <fib[31]_fib2[31]_add_0_OUT> created at line 51.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  64 D-type flip-flop(s).
+Unit <fibogen> synthesized.
+RTL-Simplification CPUSTAT: 0.00 
+RTL-BasicInf CPUSTAT: 0.08 
+RTL-BasicOpt CPUSTAT: 0.00 
+RTL-Remain-Bus CPUSTAT: 0.00 
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 2
+ 32-bit register                                       : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <fibogen>.
+The following registers are absorbed into accumulator <fib2>: 1 register on signal <fib2>.
+Unit <fibogen> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Accumulators                                         : 1
+ 32-bit up accumulator                                 : 1
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <fibogen> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block fibogen, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : fibogen.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 96
+#      GND                         : 1
+#      LUT2                        : 32
+#      MUXCY                       : 31
+#      XORCY                       : 32
+# FlipFlops/Latches                : 64
+#      FDR                         : 62
+#      FDS                         : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      IBUF                        : 1
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              64  out of  18224     0%  
+ Number of Slice LUTs:                   32  out of   9112     0%  
+    Number used as Logic:                32  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     65
+   Number with an unused Flip Flop:       1  out of     65     1%  
+   Number with an unused LUT:            33  out of     65    50%  
+   Number of fully used LUT-FF pairs:    31  out of     65    47%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    232    14%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 64    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.358ns (Maximum Frequency: 424.115MHz)
+   Minimum input arrival time before clock: 3.291ns
+   Maximum output required time after clock: 3.668ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.358ns (frequency: 424.115MHz)
+  Total number of paths / destination ports: 1584 / 64
+-------------------------------------------------------------------------
+Delay:               2.358ns (Levels of Logic = 33)
+  Source:            fib_0 (FF)
+  Destination:       fib2_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: fib_0 to fib2_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              1   0.447   0.684  fib_0 (fib_0)
+     LUT2:I0->O            1   0.203   0.000  Maccum_fib2_lut<0> (Maccum_fib2_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Maccum_fib2_cy<0> (Maccum_fib2_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<1> (Maccum_fib2_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<2> (Maccum_fib2_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<3> (Maccum_fib2_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<4> (Maccum_fib2_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<5> (Maccum_fib2_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<6> (Maccum_fib2_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<7> (Maccum_fib2_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<8> (Maccum_fib2_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<9> (Maccum_fib2_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<10> (Maccum_fib2_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<11> (Maccum_fib2_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<12> (Maccum_fib2_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<13> (Maccum_fib2_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<14> (Maccum_fib2_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<15> (Maccum_fib2_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<16> (Maccum_fib2_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<17> (Maccum_fib2_cy<17>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<18> (Maccum_fib2_cy<18>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<19> (Maccum_fib2_cy<19>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<20> (Maccum_fib2_cy<20>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<21> (Maccum_fib2_cy<21>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<22> (Maccum_fib2_cy<22>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<23> (Maccum_fib2_cy<23>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<24> (Maccum_fib2_cy<24>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<25> (Maccum_fib2_cy<25>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<26> (Maccum_fib2_cy<26>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<27> (Maccum_fib2_cy<27>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<28> (Maccum_fib2_cy<28>)
+     MUXCY:CI->O           1   0.019   0.000  Maccum_fib2_cy<29> (Maccum_fib2_cy<29>)
+     MUXCY:CI->O           0   0.019   0.000  Maccum_fib2_cy<30> (Maccum_fib2_cy<30>)
+     XORCY:CI->O           1   0.180   0.000  Maccum_fib2_xor<31> (Result<31>)
+     FDR:D                     0.102          fib2_31
+    ----------------------------------------
+    Total                      2.358ns (1.674ns logic, 0.684ns route)
+                                       (71.0% logic, 29.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 64 / 64
+-------------------------------------------------------------------------
+Offset:              3.291ns (Levels of Logic = 1)
+  Source:            init (PAD)
+  Destination:       fib_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: init to fib_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   1.222   1.639  init_IBUF (init_IBUF)
+     FDS:S                     0.430          fib_0
+    ----------------------------------------
+    Total                      3.291ns (1.652ns logic, 1.639ns route)
+                                       (50.2% logic, 49.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              3.668ns (Levels of Logic = 1)
+  Source:            fib2_31 (FF)
+  Destination:       fiboout<31> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: fib2_31 to fiboout<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.447   0.650  fib2_31 (fib2_31)
+     OBUF:I->O                 2.571          fiboout_31_OBUF (fiboout<31>)
+    ----------------------------------------
+    Total                      3.668ns (3.018ns logic, 0.650ns route)
+                                       (82.3% logic, 17.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.358|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.04 secs
+ 
+--> 
+
+
+Total memory usage is 362808 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
